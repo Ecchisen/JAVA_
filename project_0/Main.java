@@ -3,6 +3,10 @@ public class Main {
     public static void main(String[] args) {
         Xmen xmen = new Xmen();
         xmen.run();
+
+        //calling Sum Method
+        int Sum = xmen.addNumbers(10, 20);
+        System.out.println("Sum of two numbers: " + Sum);
     }
 }
 
@@ -24,5 +28,15 @@ public class Main {
         gender = input.next().charAt(0);
 
         input.close();   
+
+        System.out.print("\n");
+        System.out.println("Name: " + Name);
+        System.out.println("Age: " + Age);
+        System.out.println("Gender: " + gender);
+    }
+
+    //Sum method
+    public int addNumbers(int a, int b) {
+        return a + b;
     }
 }
