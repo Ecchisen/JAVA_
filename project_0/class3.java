@@ -30,7 +30,7 @@ public class class3 {
                 Matrix2[i][j] = scan.nextInt();
             }
         }
-
+        scan.close();
         // Adding Two matrices
         int[][] sum = new int[rows][cols];
         for(int i = 0; i < rows; i++) {

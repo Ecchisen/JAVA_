@@ -9,7 +9,7 @@ public class Class2 {
             System.out.println("Enter marks for subject " + (i+1) + ": ");
             marks[i] = scan.nextInt();
         }
-
+        scan.close();
         if(marks[0] >= passMark && marks[1] >= passMark && marks[2] >= passMark && marks[3] >= passMark && marks[4] >= passMark) {
             System.out.println("You have passed the exam");
 
