@@ -30,7 +30,8 @@ public class matMul {
                 Matrix2[i][j] = scan.nextInt();
             }
         }
-
+        scan.close();
+        
         // Multiplying Two matrices
         int[][] product = new int[rows][cols];
         for(int i=0; i<rows; i++) {
